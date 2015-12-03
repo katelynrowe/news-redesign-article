@@ -1,0 +1,196 @@
+.container {
+	float: inline;
+}
+.headers {
+	vertical-align: center;
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.header img {
+	float: inline;
+	text-align: center;
+	margin-right: 1em;
+	margin-top: 2em;
+}
+
+.headers a {
+	font-family: "Raleway";
+	font-weight: thin;
+	font-size: 1.25em;
+	color: black;
+	text-decoration: none;
+	margin: .75em;
+	margin-right: 20px;
+	margin-bottom: 1em;
+}
+
+.top {
+	margin-bottom: 1em;
+}
+
+.main {
+	background-color: rgba(0,102,255,1);
+	margin-bottom: 20px;
+}
+
+.main img {
+	width: 100%;
+	margin-bottom: .1em;
+	margin-top: .5em;
+}
+
+h1 {
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 2.75em;
+	margin-bottom: .25em;
+	color: white;
+}
+
+.ad {
+	background-color: cyan;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: rgba(0,102,255,1);
+	font-family: "Raleway";
+	font-weight: 600;
+	font-size: 1.5em;
+	float: inline;
+	margin-bottom: .5em;
+}
+
+li {
+ 	list-style: decimal;
+ 	font-family: "EB Garamond";
+ 	font-weight: bold;
+ 	font-size: 1em;
+ 	margin-top: .5em;
+}
+
+span {
+	font-family: "EB Garamond";
+	color: grey;
+	font-size: 1em;
+	margin-left: 1em;
+}
+
+.trending {
+	margin-bottom: 2em;
+}
+
+.adbox {
+	min-height: 5em;
+	background-color: cyan;
+	margin-bottom: 1em;
+}
+
+.social {	
+	background-color: rgba(0,102,255,1);	
+	min-height: 5.5em;
+	margin-bottom: 1em;
+}
+
+.video {
+	border: solid 1px;
+	min-height: 5.25em;
+	background-color: grey;
+}
+
+h3 {
+	font-family: "Raleway";
+ 	font-weight: 600;
+ 	font-size: 1em;
+ 	margin-top: .5em;
+ 	text-transform: uppercase;
+ 	margin-bottom: 1em;
+}
+
+.news img {
+	max-width: 480px;
+}
+
+.news a {
+	text-decoration: none;
+	color: black;
+	font-family: "Raleway";
+	font-size: 2em;
+	font-weight: 400;
+	margin-bottom: 1.5em;
+	float: inline;
+}
+
+.related {
+	border-bottom: solid rgba(0,102,255,1);
+	margin-bottom: 1.5em;
+}
+
+h4 {
+	font-family: "Raleway";
+ 	font-weight: 400;
+ 	font-size: 1em;
+ 	margin-top: .5em;
+ 	text-transform: uppercase;	
+}
+
+p {
+	font-family: "EB Garamond";
+	font-size: 1.5em;
+	margin-bottom: .75em;
+	line-height: 1.25em;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 650px) {
+
+	.header {
+		max-height: 10%;
+		vertical-align: center;
+	}
+
+	.headers a {
+		font-size: 1em;
+	}
+
+	.dominant img {
+		max-width: 100%;
+		max-height: 25%;
+	}
+
+	.dominant h1 {
+		font-size: 2.5em;
+		margin-bottom: .5em;
+	}
+
+	.follow {
+		margin-bottom: 2em;
+	}
+
+	.news {
+		margin-bottom: 2em;
+	}
+
+	.news img {
+		max-width: 100%;
+	}
+
+	.news a {
+		float: inline;
+		margin-bottom: .5em;
+	}
+
+	.videos {
+		max-width: 75%;
+		min-height: 6.5em;
+		float: inline;
+		margin-bottom: 2em;
+	}
+}
